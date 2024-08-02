@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.page-1{
+    background-color: black;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: fit-content;
+}
+.part-1{
+    position: relative;
+}
+#sport{
+    color: rgb(121, 219, 126);
+    font-size: 170px;
+    padding-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    opacity: 30%;
+}
+#quote{
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    opacity: 100%;
+    left: 20%;
+    top: 20%;
+}
+#text-1{
+    color: wheat;
+    margin-top: 120px;
+    font-size: 20px;
+}
+#text-2{
+    color: rgb(247, 247, 120);
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#upload-btn{
+    margin-top: 35px;
+    
+}
+#upload-btn button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    background-color: whitesmoke;
+    color: purple;
+}
+#upload-btn button:hover{
+background-color: purple;
+color: white;
+cursor: pointer;
+}
+#plate{
+    width: 200px;
+    height: 200px;
+    padding-left: 500px
+}
+#plate img{
+    max-width: 100%;
+    max-height: 100%;
+    left: 50%;
+    animation: autorotate 10s linear infinite ;
+   /* animation-timeline: view(); */
+}
+@keyframes autorotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
+.part-2{
+    height: 490px;
+    width: 410px;
+    display: flex;
+    justify-content: center;
+}
+.part-2 img {
+    padding-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Options: contain, cover, fill, scale-down, none */
+}
+.page-2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#poster{
+    margin-top: 50px;
+    height: fit-content;
+    width: 1000px;
+    background-color: rgb(185, 252, 185);
+    border-radius: 40px;
+    display: flex;
+    overflow: hidden;
+}
+.card{
+    margin: 50px;
+     height: 400px;
+     width: 350px;
+     background-color: purple;
+}
